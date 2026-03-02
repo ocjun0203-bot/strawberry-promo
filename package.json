@@ -1,0 +1,11 @@
+{
+  "name": "strawberry-promo",
+  "version": "1.0.0",
+  "description": "딸기 판매 홍보 페이지",
+  "scripts": {
+    "deploy": "netlify deploy --prod --dir=."
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}

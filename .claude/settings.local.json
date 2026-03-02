@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(node --version)",
+      "Bash(GH=\"/c/Program Files/GitHub CLI/gh.exe\")",
+      "Bash(git init)",
+      "Bash(git config user.name \"ocjun0203-bot\")",
+      "Bash(git config user.email \"ocjun0203-bot@users.noreply.github.com\")",
+      "Bash(\"$GH\" repo create ocjun0203-bot/strawberry-promo --public --description \"싱싱한 국산 딸기 판매 홍보 페이지\")",
+      "Bash(git remote add origin https://github.com/ocjun0203-bot/strawberry-promo.git)",
+      "Bash(git add .)",
+      "Bash(git commit:*)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)"
+    ]
+  }
+}
